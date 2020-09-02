@@ -1,0 +1,61 @@
+{
+  "name": "spotify-player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njmh/spotify-player.git"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^10.4.9",
+    "@testing-library/user-event": "^12.1.3",
+    "@types/jest": "^26.0.10",
+    "@types/lodash": "^4.14.161",
+    "@types/node": "^14.6.1",
+    "@types/react": "^16.9.48",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.20.0",
+    "clsx": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-query": "^2.12.1",
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "redux": "^4.0.5",
+    "typescript": "3.9.7",
+    "uniqid": "^5.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://njmh.github.io/spotify-player",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
