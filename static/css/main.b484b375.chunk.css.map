@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AACA,EACI,qBACJ,CAEA,KACI,cAAe,CACf,QAAS,CACT,kCAAmC,CACnC,iCACJ","file":"main.b484b375.chunk.css","sourcesContent":["\n* {\n    box-sizing: border-box;\n}\n\nbody {\n    font-size: 16px;\n    margin: 0;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n}\n"]}
